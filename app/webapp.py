@@ -110,7 +110,7 @@ st.markdown("""You will find more information about each student by moving the m
 # =============================================================================
 
 st.header("Manual improvability score")
-st.markdown("""Select the coefficient based on your conception of which factor impact
+st.markdown("""Select the coefficients based on your conception of which factor impact
         the most the improvability of a student.""")
 
 # Select the parameters used to compute the improvability score
@@ -130,7 +130,7 @@ score = compute_manual_score(data,  coeff_dict)
 
 data["improvability_score_manual"] = score
 
-st.markdown("""The graph behind is updated on real time based on your selection. You 
+st.markdown("""The graph above is updated on real time based on your selection. You 
             will find more information about each student by moving the mouse over 
             the data points.""")
 
