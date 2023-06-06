@@ -27,7 +27,7 @@ st.title('Prioritisation of student support')
 st.markdown("""This dashboard aims to provide a decision tool for teachers which want
                 to have insights about the improvement capacity of their students.
             Two interactives visualisations are implemented. The first one uses an improvability score
-            estimated using machine learning. The second one use an handcrafted improvability score
+            estimated using machine learning. The second one uses an handcrafted improvability score
             which enable the user to parameter it by selecting the individual weights of three differents factors.""")
         
         
