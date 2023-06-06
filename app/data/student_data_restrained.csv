@@ -1,0 +1,47 @@
+StudentID,FirstName,FamilyName,school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,FinalGrade
+0,Rafael,Morais,GP,F,18,U,GT3,A,4,4,at_home,teacher,course,mother,2,2,0,yes,no,no,no,yes,yes,no,no,4,3,4,1,1,3,6,6
+1,Lara,Braga,GP,F,17,U,GT3,T,1,1,at_home,other,course,father,1,2,0,no,yes,no,no,no,yes,yes,no,5,3,3,1,1,3,4,6
+2,Gonçalo,Azevedo,GP,F,15,U,LE3,T,1,1,at_home,other,other,mother,1,2,3,yes,no,yes,no,yes,yes,yes,no,4,3,2,2,3,3,10,10
+3,Lara,Perna,GP,F,15,U,GT3,T,4,2,health,services,home,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,3,2,2,1,1,5,2,15
+4,João,Pires,GP,F,16,U,GT3,T,3,3,other,other,home,father,1,2,0,no,yes,yes,no,yes,yes,no,no,4,3,2,1,2,5,4,10
+5,Rafael,Alva,GP,M,16,U,LE3,T,4,3,services,other,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,4,2,1,2,5,10,15
+6,Afonso,Da Luz,GP,M,16,U,LE3,T,2,2,other,other,home,mother,1,2,0,no,no,no,no,yes,yes,yes,no,4,4,4,1,1,3,0,11
+7,Guilherme,Saraiva,GP,F,17,U,GT3,A,4,4,other,teacher,home,mother,2,2,0,yes,yes,no,no,yes,yes,no,no,4,1,4,1,1,1,6,6
+8,Lucas,Neves,GP,M,15,U,LE3,A,3,2,services,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,2,2,1,1,1,0,19
+9,Sofia,Rocha,GP,M,15,U,GT3,T,3,4,other,other,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,5,1,1,1,5,0,15
+10,Rafael,Sanches,GP,F,15,U,GT3,T,4,4,teacher,health,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,3,3,3,1,2,2,0,9
+11,Tiago,Pais,GP,F,15,U,GT3,T,2,1,services,other,reputation,father,3,3,0,no,yes,no,yes,yes,yes,yes,no,5,2,2,1,1,4,4,12
+12,Ana,Camara,GP,M,15,U,LE3,T,4,4,health,services,course,father,1,1,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,1,3,5,2,14
+13,Salvador,Coelho,GP,M,15,U,GT3,T,4,3,teacher,other,course,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,5,4,3,1,2,3,2,11
+14,Sofia,Candido,GP,M,15,U,GT3,A,2,2,other,other,home,other,1,3,0,no,yes,no,no,yes,yes,yes,yes,4,5,2,1,1,3,0,16
+15,João,Raposo,GP,F,16,U,GT3,T,4,4,health,other,home,mother,1,1,0,no,yes,no,no,yes,yes,yes,no,4,4,4,1,2,2,4,14
+16,Gustavo,Janota,GP,F,16,U,GT3,T,4,4,services,services,reputation,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,3,2,3,1,2,2,6,14
+17,Lucas,Formoso,GP,F,16,U,GT3,T,3,3,other,other,reputation,mother,3,2,0,yes,yes,no,yes,yes,yes,no,no,5,3,2,1,1,4,4,10
+18,Guilherme,Ruelas,GP,M,17,U,GT3,T,3,2,services,services,course,mother,1,1,3,no,yes,no,yes,yes,yes,yes,no,5,5,5,2,4,5,16,5
+19,Ana,Marroquin,GP,M,16,U,LE3,T,4,3,health,other,home,father,1,1,0,no,no,yes,yes,yes,yes,yes,no,3,1,3,1,3,5,4,10
+20,Lourenço,Gale,GP,M,15,U,GT3,T,4,3,teacher,other,reputation,mother,1,2,0,no,no,no,no,yes,yes,yes,no,4,4,1,1,1,1,0,15
+21,Duarte,Chao,GP,M,15,U,GT3,T,4,4,health,health,other,father,1,1,0,no,yes,yes,no,yes,yes,yes,no,5,4,2,1,1,5,0,15
+22,Madalena,Lacerda,GP,M,16,U,LE3,T,4,2,teacher,other,course,mother,1,2,0,no,no,no,yes,yes,yes,yes,no,4,5,1,1,3,5,2,16
+23,Rafael,Rodriques,GP,M,16,U,LE3,T,2,2,other,other,reputation,mother,2,2,0,no,yes,no,yes,yes,yes,yes,no,5,4,4,2,4,5,0,12
+24,Diana,Carris,GP,F,15,R,GT3,T,2,4,services,health,course,mother,1,3,0,yes,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,5,2,8
+25,Francisco,Eanes,GP,F,16,U,GT3,T,2,2,services,services,home,mother,1,1,2,no,yes,yes,no,no,yes,yes,no,1,2,2,1,3,5,14,8
+26,Clara,Mau,GP,M,15,U,GT3,T,2,2,other,other,home,mother,1,1,0,no,yes,yes,no,yes,yes,yes,no,4,2,2,1,2,5,2,11
+27,Mariana,Baros,GP,M,15,U,GT3,T,4,2,health,services,other,mother,1,1,0,no,no,yes,no,yes,yes,yes,no,2,2,4,2,4,1,4,15
+28,Martim,Hilario,GP,M,16,U,LE3,A,3,4,services,other,home,mother,1,2,0,yes,yes,no,yes,yes,yes,yes,no,5,3,3,1,1,5,4,11
+29,Santiago,Barreto,GP,M,16,U,GT3,T,4,4,teacher,teacher,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,yes,4,4,5,5,5,5,16,11
+30,Mariana,Botelho,GP,M,15,U,GT3,T,4,4,health,services,home,mother,1,2,0,no,yes,yes,no,no,yes,yes,no,5,4,2,3,4,5,0,12
+31,Dinis,Formosa,GP,M,15,U,GT3,T,4,4,services,services,reputation,mother,2,2,0,no,yes,no,yes,yes,yes,yes,no,4,3,1,1,1,5,0,17
+32,Beatriz,Figueira,GP,M,15,R,GT3,T,4,3,teacher,at_home,course,mother,1,2,0,no,yes,no,yes,yes,yes,yes,yes,4,5,2,1,1,5,0,16
+33,Rafael,Guardado,GP,M,15,U,LE3,T,3,3,other,other,course,mother,1,2,0,no,no,no,yes,no,yes,yes,no,5,3,2,1,1,2,0,12
+34,Francisca,Marte,GP,M,16,U,GT3,T,3,2,other,other,home,mother,1,1,0,no,yes,yes,no,no,yes,yes,no,5,4,3,1,1,5,0,15
+35,Tomás,Alvares,GP,F,15,U,GT3,T,2,3,other,other,other,father,2,1,0,no,yes,no,yes,yes,yes,no,no,3,5,1,1,1,5,0,6
+36,Maria,Alto,GP,M,15,U,LE3,T,4,3,teacher,services,home,mother,1,3,0,no,yes,no,yes,yes,yes,yes,no,5,4,3,1,1,4,2,18
+37,Santiago,Caetano,GP,M,16,R,GT3,A,4,4,other,teacher,reputation,mother,2,3,0,no,yes,no,yes,yes,yes,yes,yes,2,4,3,1,1,5,7,15
+38,Salvador,De Melo,GP,F,15,R,GT3,T,3,4,services,health,course,mother,1,3,0,yes,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,5,2,11
+39,Martim,De Julio,GP,F,15,R,GT3,T,2,2,at_home,other,reputation,mother,1,1,0,yes,yes,yes,yes,yes,yes,no,no,4,3,1,1,1,2,8,13
+40,Benedita,Nobriga,GP,F,16,U,LE3,T,2,2,other,other,home,mother,2,2,1,no,yes,no,yes,no,yes,yes,yes,3,3,3,1,2,3,25,11
+41,Santiago,Lois,GP,M,15,U,LE3,T,4,4,teacher,other,home,other,1,1,0,no,yes,no,no,no,yes,yes,yes,5,4,3,2,4,5,8,12
+42,Miguel,Almada,GP,M,15,U,GT3,T,4,4,services,teacher,course,father,1,2,0,no,yes,no,yes,yes,yes,yes,no,4,3,3,1,1,5,2,18
+43,Rafael,Martines,GP,M,15,U,GT3,T,2,2,services,services,course,father,1,1,0,yes,yes,no,no,yes,yes,yes,no,5,4,1,1,1,1,0,11
+44,Gabriel,Cotta,GP,F,16,U,LE3,T,2,2,other,at_home,course,father,2,2,1,yes,no,no,yes,yes,yes,yes,no,4,3,3,2,2,5,14,9
+45,Duarte,Penso,GP,F,15,U,LE3,A,4,3,other,other,course,mother,1,2,0,yes,yes,yes,yes,yes,yes,yes,yes,5,2,2,1,1,5,8,6
