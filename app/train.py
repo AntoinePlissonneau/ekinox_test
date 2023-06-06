@@ -7,14 +7,11 @@ Created on Mon Jun  5 22:25:17 2023
 """
 
 import pandas as pd
-import numpy as np
-from sklearn.model_selection import KFold, train_test_split
-from sklearn.metrics import mean_squared_error
 import joblib
 from sklearn.ensemble import GradientBoostingRegressor
 from utils import ScoringModel
     
-print("test")
+
     
 FEATURES = ['Dalc',
              'Medu',
@@ -39,9 +36,15 @@ gb_reg = GradientBoostingRegressor(max_depth=3, n_estimators=n_estimators, learn
                                   subsample=0.5)
 
 model = ScoringModel(FEATURES, TARGET, gb_reg)
+
+print("Start training... ")
 model.fit(data)
 
+print("Saving to models folder ...")
+
 joblib.dump(model, 'models/booster.joblib') 
+
+print("DONE")
 
     
 
