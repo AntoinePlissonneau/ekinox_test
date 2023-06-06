@@ -15,6 +15,7 @@ Ce dashboard propose deux graphiques permettant de visualiser pour chaque élèv
 L'utilisateur peut intéragir avec le dashboard en uploadant un nouveau dataset, en sélectionnant une école, en sélectionnant un subset d'étudiant ou en configurant les poids des trois caractéristiques, influant sur le score présenté dans la seconde visualisation. 
 ![Score machine learning](img/dashboard_1.png)
 ![Score manuel](img/dashboard_2.png)
+
 ## Problématique et méthode
 
 L'objectif est de proposer un outil d'aide à la décision à destination d'enseignants leur permettant de prioriser les élèves à accompagner. A partir d'un dataset contenant certaines informations sur les élèves, et notamment sur leur vie privée, l'objectif est de proposer un dashboard qui permettrait de prioriser les élèves à accompagner en fonction de la complexité et de la valeur d’un tel accompagnement. 
