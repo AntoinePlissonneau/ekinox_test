@@ -10,7 +10,7 @@ chmod +x run.sh
 ```
 Le dashboard est accessible via le navigateur web via l'adresse `http://0.0.0.0:8051/`.
 
-Ce dashboard propose deux graphiques permettant de visualiser pour chaque élève sa note finale et son score "d'améliorabilité". Le premier graphique utilise un score généré par un modèle de machine learning. Le second utilise un score basé sur 3 caractéristiques des étudiants pondérés par des coefficients choisis par l'utilisateur.
+Ce dashboard propose deux graphiques permettant de visualiser pour chaque élève sa note finale et son score de capacité d'amélioration. Le premier graphique utilise un score généré par un modèle de machine learning. Le second utilise un score basé sur 3 caractéristiques des étudiants pondérés par des coefficients choisis par l'utilisateur.
 
 L'utilisateur peut intéragir avec le dashboard en uploadant un nouveau dataset, en sélectionnant une école, en sélectionnant un subset d'étudiant ou en configurant les poids des trois caractéristiques, influant sur le score présenté dans la seconde visualisation. 
 ![Score machine learning](img/dashboard_1.png)
@@ -24,7 +24,7 @@ Ce dashboard pourrait par exemple se centrer autour d’un graphe permettant de 
 
 La complexité de ce problème vient principalement de l'ambiguité du concept de capacité d'amélioration d'un élève via un accompagnement. L'hypothèse prise dès le départ est que l'accompagnement ne peut pas influer sur les caractéristiques des étudiants présentes dans le jeu de données. Par exemple, on considère que l'accompagnement ne peut pas avoir d'impact sur le taux d'absenteisme. Dans le cas contraire, si cette accompagnement pouvait réduire l'absentéisme (via des réunions parent-prof par exemple), alors un élève très absent aurait potentiellement une bonne capacité d'amélioration via cet accompagnement. Mais dans ce travail, le choix a été fait de ne pas considérer cette option.
 
-Deux propositions sont faites pour estimer un score d'améliorabilité.
+Deux propositions sont faites pour estimer un score de capacité d'amélioration.
 
 ### Proposition 1: Score manuel
 
@@ -33,9 +33,9 @@ C'est aux enseignants eux-même de faire ce score en leur permettant de paramét
 
 ### Proposition 2: Score automatisé avec un modèle de machine learning
 
-On pose l'hypothèse que l'améliorabilité d'un élève consiste en l'écart de note qu'il existe entre lui et la moyenne de la sous-population d'élèves possédant des caractéristiques similaire à lui. L'hypothèse consiste à considèrer que si les élèves avec un profil similaire ont en moyenne de meilleures notes que lui, alors un accompagnement permettrait probablement à l’élève de s'améliorer au moins à la hauteur de ses camarades. 
+On pose l'hypothèse que la capacité d'amélioration d'un élève consiste en l'écart de note qu'il existe entre lui et la moyenne de la sous-population d'élèves possédant des caractéristiques similaire à lui. L'hypothèse consiste à considèrer que si les élèves avec un profil similaire ont en moyenne de meilleures notes que lui, alors un accompagnement permettrait probablement à l’élève de s'améliorer au moins à la hauteur de ses camarades. 
 
-Autrement dit, les caractéristiques de l'étudiant conditionnent une distribution de note que pourrait avoir l’élève. L'objectif est d'abord d'estimer la moyenne de la distribution de note des élèves similaire à l'élève de référence pour ensuite calculer l'écart entre cette moyenne et la note de l'élève. 
+Autrement dit, les caractéristiques de l'étudiant conditionnent une distribution de notes que pourrait avoir l’élève. L'objectif est d'abord d'estimer la moyenne de la distribution de note des élèves similaire à l'élève de référence pour ensuite calculer l'écart entre cette moyenne et la note de l'élève. 
 
 Pour estimer cette distribution, l'idée est de la modéliser en fonction des différentes caractéristiques. Pour se faire, un modèle de machine learning (Gradient Boosting) a été entrainé à partir du dataset fourni. 
 
