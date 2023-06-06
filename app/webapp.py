@@ -81,7 +81,7 @@ idx_mask = data.FullName.isin(selected_students) & data.school.isin(selected_sch
 # =============================================================================
 # ML-based improvability score
 # =============================================================================
-
+st.header("ML-based improvability score")
 #clean_df = pd.get_dummies(data)
 model = joblib.load("models/booster.joblib")
 
@@ -102,7 +102,7 @@ st.markdown("""You will find more information about each student by moving the m
 # Manual improvability score
 # =============================================================================
 
-st.header("Manual complexity design")
+st.header("Manual improvability score")
 st.markdown("""Select the coefficient based on your conception of which factor impact
         the most the improvability of a student.""")
 
