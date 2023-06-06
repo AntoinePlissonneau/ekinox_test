@@ -13,8 +13,8 @@ Le dashboard est accessible via le navigateur web via l'adresse `http://0.0.0.0:
 Ce dashboard propose deux graphiques permettant de visualiser pour chaque élève sa note finale et son score "d'améliorabilité". Le premier graphique utilise un score généré par un modèle de machine learning. Le second utilise un score basé sur 3 caractéristiques des étudiants pondérés par des coefficients choisis par l'utilisateur.
 
 L'utilisateur peut intéragir avec le dashboard en uploadant un nouveau dataset, en sélectionnant une école, en sélectionnant un subset d'étudiant ou en configurant les poids des trois caractéristiques, influant sur le score présenté dans la seconde visualisation. 
-![Score machine learning](dashboard_1.png)
-![Score manuel](dashboard_2.png)
+![Score machine learning](img/dashboard_1.png)
+![Score manuel](img/dashboard_2.png)
 ## Problématique et méthode
 
 L'objectif est de proposer un outil d'aide à la décision à destination d'enseignants leur permettant de prioriser les élèves à accompagner. A partir d'un dataset contenant certaines informations sur les élèves, et notamment sur leur vie privée, l'objectif est de proposer un dashboard qui permettrait de prioriser les élèves à accompagner en fonction de la complexité et de la valeur d’un tel accompagnement. 
