@@ -6,13 +6,20 @@ Created on Mon Jun  5 22:38:46 2023
 @author: aplissonneau
 """
 import os
+
+# Ensure we are one the good directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import joblib
 from utils import ScoringModel, compute_manual_score
 
-print(os.getcwd())
+
+
 
 st.title('Prioritisation of student support')
 
