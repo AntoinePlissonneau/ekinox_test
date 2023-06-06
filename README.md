@@ -44,6 +44,7 @@ Ce projet contient aussi le script d'entrainement du modèle ainsi qu'un noteboo
 ```bash
 conda create --file requirements.txt --name ekinox_test
 conda activate ekinox_test
+cd app
 ```
 
 Pour le notebook:
