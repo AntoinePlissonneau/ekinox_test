@@ -5,6 +5,7 @@
 Le dashboard peut être lancé via un conteneur Docker via la commande ci-dessous:
 
 ```bash
+chmod +x run.sh
 ./run.sh
 ```
 Le dashboard est accessible via le navigateur web via l'adresse `http://0.0.0.0:8051/`.
