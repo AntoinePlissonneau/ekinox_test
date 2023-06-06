@@ -33,9 +33,9 @@ C'est aux enseignants eux-même de faire ce score en leur permettant de paramét
 
 ### Proposition 2: Score automatisé avec un modèle de machine learning
 
-On pose l'hypothèse que la capacité d'amélioration d'un élève consiste en l'écart de note qu'il existe entre lui et la moyenne de la sous-population d'élèves possédant des caractéristiques similaire à lui. L'hypothèse consiste à considèrer que si les élèves avec un profil similaire ont en moyenne de meilleures notes que lui, alors un accompagnement permettrait probablement à l’élève de s'améliorer au moins à la hauteur de ses camarades. 
+On pose l'hypothèse que la capacité d'amélioration d'un élève consiste en l'écart de note qu'il existe entre lui et la moyenne de la sous-population d'élèves possédant des caractéristiques similaires à lui. L'hypothèse consiste à considèrer que si les élèves avec un profil similaire ont en moyenne de meilleures notes que lui, alors un accompagnement permettrait probablement à l’élève de s'améliorer au moins à la hauteur de ses camarades. 
 
-Autrement dit, les caractéristiques de l'étudiant conditionnent une distribution de notes que pourrait avoir l’élève. L'objectif est d'abord d'estimer la moyenne de la distribution de note des élèves similaire à l'élève de référence pour ensuite calculer l'écart entre cette moyenne et la note de l'élève. 
+Autrement dit, les caractéristiques de l'étudiant conditionnent une distribution de notes que pourrait avoir l’élève. L'objectif est d'abord d'estimer la moyenne de la distribution de notes des élèves similaires à l'élève de référence pour ensuite calculer l'écart entre cette moyenne et la note de l'élève. 
 
 Pour estimer cette distribution, l'idée est de la modéliser en fonction des différentes caractéristiques. Pour se faire, un modèle de machine learning (Gradient Boosting) a été entrainé à partir du dataset fourni. 
 
