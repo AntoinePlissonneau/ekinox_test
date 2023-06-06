@@ -127,7 +127,7 @@ st.markdown("""The graph behind is updated on real time based on your selection.
             will find more information about each student by moving the mouse over 
             the data points.""")
 
-fig = px.scatter(data[data.FullName.isin(selected_students)], x="FinalGrade", y="improvability_score_manual",  
+fig = px.scatter(data[idx_mask], x="FinalGrade", y="improvability_score_manual",  
                  hover_data=["FullName"]+keys)
 
 col1.plotly_chart(fig, use_container_width=True)
